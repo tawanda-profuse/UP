@@ -7,7 +7,30 @@
     font-family: 'Poppins', sans-serif;
     /* font-family: 'Source Sans Pro', sans-serif; */
 }
+.navbar{
+    width: 30%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 140px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
 .section{
+    padding-top: 30px;
     width: 100%;
     min-height: 100vh;
     /* background-color: #ddd; */
@@ -72,4 +95,36 @@
 .content-section .social i:hover{
     color: gold;
 }
-
+@media screen and (max-width: 768px){
+    .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .content-section{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .image-section{
+        float: none;
+        width: 100%;
+    }
+    .image-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .content-section .content .button{
+        text-align: center;
+    }
+    .content-section .content .button a{
+        padding: 9px 30px;
+    }
+    .content-section .social{
+        text-align: center;
+    }
+}
