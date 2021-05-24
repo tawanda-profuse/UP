@@ -2,13 +2,16 @@ $(document).ready(function(){
         var holder = $(".holder");
         var sunSet = new Date();
         var time = sunSet.getHours();
+        var cloud = $('.cloud');
         // NIGHTIME
         if(18 > time > 6){
+        // if(time == 17){
             // holder.css("background-image", 'url(/images/test-1.jpeg)');
             holder.css("background-image", 'url(/images/test-2.jpeg)');
             // holder.css("background-image", 'url(/images/test-3.jpeg)');
             // holder.css("background-image", 'url(/images/test-4.jpeg)');
             // holder.css("background-image", 'url(/images/test-5.png)');
+            cloud.css("opacity", "0.1");
         }
         // DAYTIME
         else{
