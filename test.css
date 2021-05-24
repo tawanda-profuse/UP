@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Courgette");
+
+/***************CLOUDs**********/
+.cloud {
+  position: relative;
+  top: 18vw;
+  left: 5vw;
+  z-index: 0;
+}
+.part1 {
+  position: absolute;
+  background-color: white;
+  width: 8vw;
+  height: 3vw;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #fff, 0 0 5px #ffff, 0 0 5px #ffcccc, 0 0 10px #fff,
+    0 0 20px #fff, 0 0 60px #fff;
+}
+
+.part2 {
+  position: absolute;
+  background-color: white;
+  top: -1vw;
+  left: -1vw;
+  width: 4vw;
+  height: 3vw;
+  border-radius: 50%;
+}
+.part3 {
+  position: absolute;
+  background-color: white;
+  top: -0.8vw;
+  left: 5vw;
+  width: 4vw;
+  height: 3vw;
+  border-radius: 50%;
+}
+.part4 {
+  position: absolute;
+  background-color: white;
+  top: -1.8vw;
+  left: 2vw;
+  width: 5vw;
+  height: 4vw;
+  border-radius: 50%;
+}
+.one {
+  animation: bounccloud 100s infinite alternate backwards,
+    tlo 500ms linear 100s infinite normal forwards;
+    opacity: 0.7;
+}
+.two {
+  top: -8vw;
+  left: 5vw;
+  animation: bounccloud 130s infinite;
+}
+.three {
+  top: 10vw;
+  left: 20vw;
+  animation: bounccloud 150s infinite;
+}
+.four {
+  top: -1vw;
+  left: 50vw;
+  animation: bounccloud 200s infinite;
+}
+.five {
+  top: 20vw;
+  left: 60vw;
+  animation: bounccloud 150s infinite;
+}
+.six {
+  top: 10vw;
+  left: 80vw;
+  animation: bounccloud 200s infinite;
+}
+
+@keyframes bounccloud {
+  0% {
+    transform: translateY(-5px);
+    transform: translateX(-10px);
+  }
+  25% {
+    transform: translateY(10px);
+    transform: translateX(20vw);
+  }
+  70% {
+    transform: translateY(15px);
+    transform: translateX(40vw);
+  }
+  100% {
+    transform: translateY(0);
+    transform: translateX(50vw);
+  }
+}

@@ -1,5 +1,4 @@
 :root{
-    /* --main-color: #000; */
     --main-color: #d8ecf3;
     --accent-color: #000000;
     --main-color-light: #ffffff;
@@ -8,21 +7,20 @@
 .home{
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans Pro', sans-serif;
-    background-color: rgb(81, 133, 245);
+    background-image: url('/images/image.jpeg');
 }
 .holder{
-    /* height: 100vh; */
     height: 120vh;
     width: 100%;
     background-image: url('/images/image.jpeg');
-    /* background: var(--main-color-light); */
-    /* background: var(--main-color); */
     background-size: cover;
     background-position: center;
     position: relative;
+    overflow:hidden; /*test*/
 }
 .navbar{
+    /* font-family: "Courgette", cursive; */
+    font-family: 'OCR A Std', cursive;
     width: 88%;
     margin: auto;
     padding: 15px 0;
@@ -41,9 +39,9 @@
 }
 .navbar ul li a{
     text-decoration: none;
-    /* color: var(--accent-color); */
     color: white;
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: bold;
 }
 .content{
     width: 100%;
@@ -52,16 +50,18 @@
 }
 .left-col{
     margin-left: 6%;
+    position: relative;
+    z-index: 1;
 }
 .left-col h1{
     font-size: 90px;
     /* font-family: 'alphacloudsregular'; */
     font-family: 'OCR A Std', cursive;
+    /* font-family: 'Courgette', cursive; */
     font-weight: bold;
     color: var(--main-color-light);
     line-height: 110px;
     float: left;
-    opacity: 0.9;
 }
 .right-col{
     float: right;
@@ -69,6 +69,8 @@
     margin-top: 120px;
     display: flex;
     align-items: center;
+    position: relative;
+    z-index: 1;
 }
 .right-col p{
     margin-right: 20px;
@@ -77,6 +79,8 @@
     font-size: 18px;
     text-transform: uppercase;
     font-style: italic;
+    position: relative;
+    z-index: 1;
 }
 #icon{
     width: 80px;
