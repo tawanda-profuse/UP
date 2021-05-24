@@ -4,7 +4,11 @@ $(document).ready(function(){
         var time = sunSet.getHours();
         // NIGHTIME
         if(18 > time > 6){
-            holder.css("background-image", 'url(/images/u-p.jpg)');
+            // holder.css("background-image", 'url(/images/test-1.jpeg)');
+            holder.css("background-image", 'url(/images/test-2.jpeg)');
+            // holder.css("background-image", 'url(/images/test-3.jpeg)');
+            // holder.css("background-image", 'url(/images/test-4.jpeg)');
+            // holder.css("background-image", 'url(/images/test-5.png)');
         }
         // DAYTIME
         else{

@@ -55,7 +55,8 @@
 }
 .left-col h1{
     font-size: 90px;
-    font-family: 'alphacloudsregular';
+    /* font-family: 'alphacloudsregular'; */
+    font-family: 'OCR A Std', cursive;
     font-weight: bold;
     color: var(--main-color-light);
     line-height: 110px;
