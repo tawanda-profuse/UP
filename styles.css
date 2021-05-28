@@ -338,6 +338,18 @@ footer{
         width: 35%;
         display: block;
     }
+    .land-page{
+        display: block;
+    }
+    .land-page .information h1{
+        padding-left: 25px;
+        font-size: 25px;
+    }
+    .land-pic img{
+        height: 250px;
+        width: 250px;
+        padding-left: 50px;
+    }
     .left-col h1{
         font-size: 45px;
         line-height: 1.3;
