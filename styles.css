@@ -333,6 +333,44 @@ footer{
     height: 500px;
     width: 500px;
 }
+@media screen and (min-width: 360px) and (max-width: 490px){
+    .navbar{
+        width: 35%;
+        display: block;
+    }
+    .left-col h1{
+        font-size: 45px;
+        line-height: 1.3;
+    }
+    .right-col{
+        margin-top: 12px;
+        float: left;
+        margin-left: 12px;
+}
+    .right-col p{
+        margin-right: 20px;
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 492px) and (max-width: 750px){
+    .navbar{
+        width: 35%;
+        display: block;
+    }
+    .left-col h1{
+        font-size: 75px;
+        line-height: 1.3;
+    }
+    .right-col{
+        margin-top: 12px;
+        float: left;
+        margin-left: 12px;
+}
+    .right-col p{
+        margin-right: 20px;
+        font-size: 12px;
+    }
+}
 
 
 
