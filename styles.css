@@ -363,6 +363,35 @@ footer{
         margin-right: 20px;
         font-size: 12px;
     }
+    /* play.html */
+    .container h1{
+        margin-bottom: 10px;
+    }
+    .container p{
+        display: none;
+    }
+    .closed{
+        display: none;
+    }
+    .body_content{
+        margin-top: 15px;
+    }
+    .body_content .title span{
+        font-size: 12px;
+    }
+    .list .song_artist, .song_genre, .song_duration{
+        display: none;
+    }
+    .body_content .list_block{
+        padding: 20px 0px;
+    }
+    .body_content .list_block span:nth-child(1){
+        width: 16%;
+    }
+    .body_content .list_block span:nth-child(6){
+        width: 20%;
+    }
+    /* play.html */
 }
 @media screen and (min-width: 492px) and (max-width: 750px){
     .navbar{
