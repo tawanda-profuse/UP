@@ -8,8 +8,6 @@ $(document).ready(function(){
 
         list_block.append('<span class="play_btn"><img class="play_icon" src="images/play.svg" alt="Button for playing music"><img class="pause_icon" src="images/pause.svg" alt="Button for pausing music"></span>');
         list_block.append('<span class="song_title">'+ song_list[key].title + '</span>');
-        list_block.append('<span class="song_artist">'+ song_list[key].artist + '</span>');
-        list_block.append('<span class="song_genre">'+ song_list[key].genre + '</span>');
         list_block.append('<span class="song_duration">'+ song_list[key].duration + '</span>');
         list_block.append('<span class="beat_animation"><ul><li></li><li></li><li></li><li></li><li></li></ul></span>');
         list_block.append('<span class="track"><audio id="audio" controls><source src="songs/'+ song_list[key].track +'" type="audio/mp3"></audio></span>');

@@ -1,4 +1,5 @@
-$(document).ready(function(){
+// $(document).ready(function(){
+$(window).load(function(){
         var holder = $(".holder");
         var sunSet = new Date();
         var time = sunSet.getHours();
@@ -13,7 +14,7 @@ $(document).ready(function(){
             cloud.css("opacity", "0.1");
         }
         // DAYTIME
-        else{
+        else if(time > 6){
             holder.css("background-image", 'url(images/image.jpeg)');
         }
     });
