@@ -1,5 +1,4 @@
-// $(document).ready(function(){
-$(window).load(function(){
+$(document).ready(function(){
         var holder = $(".holder");
         var sunSet = new Date();
         var time = sunSet.getHours();
