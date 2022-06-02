@@ -2,6 +2,7 @@ $(document).ready(function(){
     var list = $('.list');
     var list_block;
 
+    // The loop below cycles through the saved tracks in data.js
     for (var key in song_list){
         list_block = $('<div class="list_block"></div>');
         list.append(list_block);
