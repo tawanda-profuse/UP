@@ -10,7 +10,6 @@
     background-image: url('images/image.jpeg');
 }
 .holder{
-    height: 120vh;
     width: 100%;
     background-image: url('images/image.jpeg');
     background-size: cover;
@@ -42,11 +41,6 @@
     color: white;
     font-size: 18px;
     font-weight: bold;
-}
-.content{
-    width: 100%;
-    position: absolute;
-    top: 30%;
 }
 .left-col{
     margin-top: 8%;
@@ -93,7 +87,7 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: normal;
     color: var(--accent-color);
-    min-height: 1000px;
+    /* min-height: 1000px; */
     letter-spacing: .6px;
 }
 .wrapper{
